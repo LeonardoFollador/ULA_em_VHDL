@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Th3Br\Documents\GitHub\ULA_em_VHDL\vhdl\simulation\qsim
+vula
+Z1 !s100 M5Fd^m63J4[mak=Ib]:VK0
+Z2 IT=ijAWmO2hl30:MSgM[NW1
+Z3 V?XDJ1Cj8hH;D7EN0f8[nI2
+Z4 dC:\Users\Th3Br\Documents\GitHub\ULA_em_VHDL\vhdl\simulation\qsim
+Z5 w1729189722
+Z6 8ula.vo
+Z7 Fula.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|ula.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1729189723.574000
+Z12 !s107 ula.vo|
+!s101 -O0
+vula_vlg_check_tst
+!i10b 1
+Z13 !s100 l1@cA54Y3EC::];><blFg3
+Z14 IXKQ864bh:n8P?4AV76]D;2
+Z15 V4G3EF7D[aHmmi;Yid2mX=0
+R4
+R5
+Z16 8ula.vt
+Z17 Fula.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z18 !s108 1729189723.654000
+Z19 !s107 ula.vt|
+Z20 !s90 -work|work|ula.vt|
+!s101 -O0
+R10
+vula_vlg_sample_tst
+!i10b 1
+Z21 !s100 @4<R3?9d9>ESNfKUzc;Ro1
+Z22 IZ>1_jQAmdC7K5j6g?XE9U1
+Z23 VofHC`fDjAzX9aTiND^a9M0
+R4
+R5
+R16
+R17
+L0 29
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+vula_vlg_vec_tst
+!i10b 1
+!s100 Dno11^zi@ALAP2Ub[zA>E3
+I@3LN<XakoVb^9?O>a]L4R2
+Z24 VBSK`iV7TVbh_f_eCb<4Km2
+R4
+R5
+R16
+R17
+Z25 L0 236
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
