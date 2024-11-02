@@ -35,6 +35,7 @@ begin
         elsif (entrada1 < entrada2) then
             entrada_maior <= entrada2;
             entrada_menor <= entrada1;
+				overflow <= '1';
             comparacao <= "10";  -- A < B
         else
             entrada_maior <= entrada1; -- ou entrada2, pois são iguais
@@ -74,21 +75,21 @@ begin
                 end if;
 
                 if igual = '1' then
-                    saida <= "0001";
+                    saida <= "1111";
                 else
                     saida <= "0000";
                 end if;
 
             when "0100" =>  -- Comparador de Maior que
                 if comparacao = "01" then
-                    saida <= "0001";  -- A é maior que B
+                    saida <= "1111";  -- A é maior que B
                 else
                     saida <= "0000";  -- A não é maior que B
                 end if;
 
             when "1000" =>  -- Comparador de Menor que
                 if comparacao = "10" then
-                    saida <= "0001";  -- A é menor que B
+                    saida <= "1111";  -- A é menor que B
                 else
                     saida <= "0000";  -- A não é menor que B
                 end if;
