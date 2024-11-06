@@ -35,7 +35,6 @@ begin
         elsif (entrada1 < entrada2) then
             entrada_maior <= entrada2;
             entrada_menor <= entrada1;
-				overflow <= '1';
             comparacao <= "10";  -- A < B
         else
             entrada_maior <= entrada1; -- ou entrada2, pois são iguais
@@ -60,6 +59,12 @@ begin
                 end if;
 
             when "0010" =>  -- Subtrator
+				    if (comparacao = "10") then
+						overflow <= '1';
+					 else
+						overflow <= '0';
+					 end if;
+					 
                 subtracao <= NOT entrada_menor;  -- Inverte bits da menor entrada
                 carry(0) <= '1';  -- Complemento de 2 para subtração
                 for i in 0 to 3 loop
